@@ -12,7 +12,7 @@ router.get("/", ctrl.getAllContacts);
 
 // router.get("/:contactId", ctrl.getContactById);
 
-// router.post("/", validateBody(addSchema), ctrl.addContact);
+router.post("/", validateBody(addSchema), ctrl.addContact);
 
 // router.delete("/:contactId", ctrl.removeContact);
 
